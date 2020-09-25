@@ -2,11 +2,10 @@
 apiVersion: v1 #version of the API to use
 kind: Pod #What kind of object we're deploying
 metadata: #information about our object we're deploying
-  name: flask-pod
+  name: nodered-pod
 spec: #specifications for our object
   containers:
-  - name: flask-container #the name of the container within the pod
-    image: yenaing/python_flask #which container image should be pulled
+  - name: nodered-container #the name of the container within the pod
+    image: yenaing/ubuntu_nodered #which container image should be pulled
     ports:
-    - containerPort: 5000 #the port of the container within the pod
-
+    - containerPort: 1880 #the port of the container within the pod
