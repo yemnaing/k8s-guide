@@ -6,6 +6,6 @@ metadata: #information about our object we're deploying
 spec: #specifications for our object
   containers:
   - name: php-container #the name of the container within the pod
-    image: php:7.4-apache #which container image should be pulled
+    image: yenaing/php72 #which container image should be pulled
     ports:
     - containerPort: 80 #the port of the container within the pod
