@@ -2,7 +2,7 @@
 apiVersion: v1 #version of the API to use
 kind: Pod #What kind of object we're deploying
 metadata: #information about our object we're deploying
-  name: php-pod
+  name: php7.2-pod
 spec: #specifications for our object
   containers:
   - name: php-container #the name of the container within the pod
