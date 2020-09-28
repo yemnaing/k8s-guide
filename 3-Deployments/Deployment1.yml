@@ -18,4 +18,4 @@ spec: #specifications for our object
       - name: php-container #the name of the container within the pod
         image: php:7.4-fpm-alpine  #which container image should be pulled
         ports:
-        - containerPort: 80 #the port of the container within the pod
+        - containerPort: 80 #the port off the container within the pod
